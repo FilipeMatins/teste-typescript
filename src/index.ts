@@ -1,3 +1,3 @@
 import {server} from './server/server';
 
-server.listen(3333, () => console.log('api rodando'));
+server.listen(process.env.PORT, () => console.log('api rodando'));
